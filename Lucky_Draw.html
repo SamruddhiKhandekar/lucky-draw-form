@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lucky Draw Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #AAF0D1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .form-container {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 320px;
+      text-align: center;
+    }
+
+    .form-container h2 {
+      margin-bottom: 20px;
+      color: #0077b6;
+    }
+
+    .form-container input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    .form-container button {
+      background-color: #0077b6;
+      color: #fff;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .form-container button:hover {
+      background-color: #005f87;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>🎉🎉 Lucky draw 🎉🎉</h2>
+    <form>
+      <input type="text" placeholder="Enter your name" required>
+      <input type="tel" placeholder="Enter your contact number" required>
+      <input type="email" placeholder="Enter your email" required>
+      <input type="text" placeholder="Enter IFSC code" required>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
